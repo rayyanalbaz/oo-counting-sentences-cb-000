@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(".").each do |e|
-      e.split("?")
+  return  self.split(".").size
+
   end
 end
